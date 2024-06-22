@@ -1,0 +1,143 @@
+
+.contentdiv {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-left: 180px;
+}
+
+.colContent {
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px; /* Optional: Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    margin: 5px;
+   /* Optional: Add a subtle shadow */
+    
+}
+/* basicpage.module.css */
+.card {
+    width: 100%; /* Adjust this value as needed */
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.colTitle {
+    color: #025BD4;
+    font-family: 'Inter', sans-serif;
+}
+.colTitle2 {
+    color: black;
+    font-family: 'Inter', sans-serif;
+}
+.border{
+    border-radius: 21px;
+}
+.border2{
+    border-radius: 12px;
+}
+.specail {
+    background-image: linear-gradient(to right, #457aca, #093dca); /* Gradient background */
+    color: white; 
+    border-radius: 31px;
+    padding: 5px;
+    padding-left: 60px;
+    padding-right: 81px;
+  }
+  .days {
+    color: #333; /* Adjust color as needed */
+    font-size: 14px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.completed,.inProgress, .failed {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: green;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px; /* Adjust spacing between statuses */
+
+}
+.completed {
+    color: green;
+}
+
+.inProgress {
+    color: orange;
+}
+
+.failed {
+    color: red;
+}
+.tabTitle {
+    background-image: linear-gradient(to right, #457aca, #093dca); /* Gradient background */
+    color: white;
+    border-radius: 31px;
+    padding: 5px 20px; /* Adjust padding as needed */
+}
+.ques{
+    background-image: linear-gradient(to right, #457aca, #093dca); /* Gradient background */
+    color: white; 
+    border-radius: 19px;
+    padding: 3px;
+    padding-left: 19px;
+    padding-right: 16px; 
+}
+.que2{
+    background-color: white;
+    color: #6c757d; /* Bootstrap's muted text color */
+    border-color: #6c757d; /* Muted border color */
+    border-radius: 19px;
+    padding: 3px 16px; /* Adjust padding as needed */
+    border-width: 1px; /* Optionally adjust border width */
+}
+.questionnaire {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.question {
+    margin-bottom: 10px;
+}
+.question hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+.reason {
+    font-weight: bold;
+    color: #0a0a0a;
+}
+.activity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .activity-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust spacing between items */
+  }
+  
+  .line {
+    position: absolute;
+    background-color: #ccc;
+    width: 2px; /* Line thickness */
+    height: calc(100% - 20px); /* Adjust line height to match activity items */
+    left: calc(50% - 1px); /* Center line horizontally */
+    z-index: -1; /* Place line behind activity items */
+  }
+  
