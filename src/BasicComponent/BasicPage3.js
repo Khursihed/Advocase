@@ -127,7 +127,7 @@ function Basicpage3() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col xs={8} md={5} style={{ maxHeight: '200px', display: 'flex', flexDirection: 'column' }}>
+                    <Col xs={12} md={5} style={{ maxHeight: '200px', display: 'flex', flexDirection: 'column' }}>
                         <Card style={{ flex: 1 }}>
                             <CardTitle className='p-2 mt-2 fs-3'><b>Case Flow</b>
                             </CardTitle>
